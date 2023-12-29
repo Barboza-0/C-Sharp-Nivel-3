@@ -1,0 +1,86 @@
+﻿html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    list-style: none;
+}
+body {
+    font-family: Verdana;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{
+    background-color: whitesmoke;
+}
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    font-size: 55px;
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+header a{
+    text-decoration: none;
+    padding: 5px 12px;
+    font-weight: bold;
+    color: indigo;
+}
+header a:hover{
+    color: mediumpurple;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url(../Media/portal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#About .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logoAbout{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+#textAbout{
+    font-size: 18px;
+    font-family: Tahoma;
+}
+#Languages .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+}
+#logoLanguages {
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+#Languages img{
+    margin: 0;
+    width: 24%;
+    padding: 10px 40px;
+}

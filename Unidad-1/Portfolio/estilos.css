@@ -1,0 +1,13 @@
+header{
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+}
+#Titulo{
+    text-align: center;
+    font-size: 80px;
+    color: whitesmoke;
+}
+#imgTitulo{
+    width: 1300px;
+}
